@@ -1,0 +1,14 @@
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\bin\Debug\BookClubPoints.exe.config
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\bin\Debug\BookClubPoints.exe
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\bin\Debug\BookClubPoints.pdb
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.csprojResolveAssemblyReference.cache
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\MainWindow.g.cs
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\App.g.cs
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints_MarkupCompile.cache
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints_MarkupCompile.lref
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\MainWindow.baml
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.g.resources
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.Properties.Resources.resources
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.csproj.GenerateResource.Cache
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.exe
+\\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.pdb
