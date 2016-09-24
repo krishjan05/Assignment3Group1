@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BookClubPoints"
         mc:Ignorable="d"
-        Title="BookClubPoints" Height="350" Width="525" ResizeMode="NoResize">
+        Title="Book Club Points Points" Height="300" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/BookClubBackground.jpg" />
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -18,13 +21,43 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Label Name="lblEnterNumberofBooks" Content="Enter Number Of Books" Grid.Column="0" Grid.Row="0"/>
+        <Label Name="lblHeading" 
+               Content="BOOK CLUB POINTS CALCULATOR" 
+               Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" 
+               FontSize="24" FontStyle="Oblique" 
+               VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
-        <TextBox Name="tboEnteredNumberOfBooks" Grid.Column="1" Grid.Row="0"/>
+        <Label Name="lblNumberOfBooks" 
+               Content="Enter number of books" 
+               Grid.Column="0" Grid.Row="1"
+               FontSize="18"
+               VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
-        <Button Name="btncalcpoints" Content="Calculate Points" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Click="btncalcpoints_Click"/>
+        <TextBox Name="txtNumberOfBooks"
+                 Grid.Column="1" Grid.Row="1"
+                 Height="25" Width="100" 
+                 TextAlignment="Center"
+                 Text="0"/>
 
-        <TextBlock Name="tblPoints" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"/>
+        <Button Name="btnReset"
+                Grid.Column="0" Grid.Row="2"
+                Height="50" Width="150"
+                Content="Reset" FontSize="16"
+                Click="btnReset_Click"/>
+        
+        <Button Name="btnCalculatePoints"
+                Grid.Column="1" Grid.Row="2"
+                Height="50" Width="150"
+                Content="Calculate points" FontSize="16"
+                Click="btnCalculatePoints_Click"/>
 
+        <Button Name="btnInformation"
+                Grid.Column="1" Grid.Row="1"
+                Height="25" Width="25"
+                Margin="20"
+                HorizontalAlignment="Right"
+                Click="btnInformation_Click">
+            <Image Source="Images/info-icon.jpg" Stretch="UniformToFill"/>
+        </Button>
     </Grid>
 </Window>

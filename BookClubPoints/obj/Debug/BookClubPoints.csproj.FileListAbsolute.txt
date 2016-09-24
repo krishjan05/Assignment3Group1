@@ -12,3 +12,17 @@
 \\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.csproj.GenerateResource.Cache
 \\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.exe
 \\FS06D\Stu7\Home\Tteckchandani9481\Visual Studio 2015\Projects\BookClubPoints\BookClubPoints\obj\Debug\BookClubPoints.pdb
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\bin\Debug\BookClubPoints.exe.config
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.exe
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.pdb
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\bin\Debug\BookClubPoints.exe
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\bin\Debug\BookClubPoints.pdb
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.csprojResolveAssemblyReference.cache
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\MainWindow.g.cs
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\App.g.cs
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints_MarkupCompile.cache
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints_MarkupCompile.lref
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\MainWindow.baml
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.g.resources
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.Properties.Resources.resources
+C:\Users\krish\Source\Repos\Assignment3Group1\BookClubPoints\obj\Debug\BookClubPoints.csproj.GenerateResource.Cache
