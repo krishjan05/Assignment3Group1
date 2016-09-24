@@ -1,4 +1,17 @@
-﻿<Window x:Class="BookClubPoints.MainWindow"
+﻿<!--MainWindow.xaml
+    Created by Krishna Kanhaiya
+    Assignment 3 
+    Group Members:
+    1. Krishna Kanhaiya 
+    2. Oleksandr Rudavka
+    3. Niral Gandhi
+    4. Tanmay Teckchandani
+    5. Priya Tharuman
+    6. Lucas Currah
+    7. Jonathan Nagata
+    Source: https://github.com/krishjan05/Assignment3Group1
+    -->
+<Window x:Class="BookClubPoints.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,6 +20,7 @@
         mc:Ignorable="d"
         Title="Book Club Points Points" Height="300" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
+        <!--Grid definition-->
         <Grid.Background>
             <ImageBrush ImageSource="Images/BookClubBackground.jpg" />
         </Grid.Background>
@@ -20,37 +34,42 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+        
+        <!--Label for showing the heading-->
         <Label Name="lblHeading" 
                Content="BOOK CLUB POINTS CALCULATOR" 
                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" 
-               FontSize="24" FontStyle="Oblique" 
+               FontSize="24" FontStyle="Oblique" FontWeight="Bold" 
                VerticalAlignment="Center" HorizontalAlignment="Center"/>
-
+        
+        <!--Label to show the instruction to user-->
         <Label Name="lblNumberOfBooks" 
                Content="Enter number of books" 
                Grid.Column="0" Grid.Row="1"
                FontSize="18"
                VerticalAlignment="Center" HorizontalAlignment="Center"/>
-
+        
+        <!--Text box to enter the number of books-->
         <TextBox Name="txtNumberOfBooks"
                  Grid.Column="1" Grid.Row="1"
-                 Height="25" Width="100" 
-                 TextAlignment="Center"
+                 Height="20" Width="100" 
+                 TextAlignment="Right"
                  Text="0"/>
-
+        <!--Button to reset the value in textbox-->
         <Button Name="btnReset"
                 Grid.Column="0" Grid.Row="2"
                 Height="50" Width="150"
                 Content="Reset" FontSize="16"
                 Click="btnReset_Click"/>
         
+        <!--Button to caluculte the points earned-->
         <Button Name="btnCalculatePoints"
                 Grid.Column="1" Grid.Row="2"
                 Height="50" Width="150"
                 Content="Calculate points" FontSize="16"
                 Click="btnCalculatePoints_Click"/>
 
+        <!--Button to display the rules for calculation of points-->
         <Button Name="btnInformation"
                 Grid.Column="1" Grid.Row="1"
                 Height="25" Width="25"
