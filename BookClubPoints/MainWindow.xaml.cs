@@ -1,4 +1,4 @@
-﻿/* MainWindow.xaml
+﻿/* MainWindow.xaml.cs
    * Created by Krishna Kanhaiya
    * Assignment 3 
    * Group Members:
