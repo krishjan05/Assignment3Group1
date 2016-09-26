@@ -34,51 +34,30 @@ namespace BookClubPoints
     /// </summary>
     public partial class MainWindow : Window
     {
+        bookclubpoints bookClubpoints;
         public MainWindow()
         {
             InitializeComponent();
+            bookClubpoints = new bookclubpoints();
+            DataContext = bookClubpoints;
+
+            
         }
         //Function to calculate the points earned by a member
         private void btnCalculatePoints_Click(object sender, RoutedEventArgs e)
         {
-            uint NumberOfBook;
-           
-                if(uint.TryParse(txtNumberOfBooks.Text, out NumberOfBook))
-                {
-                    switch (NumberOfBook)
-                    {
-                        case 0: MessageBox.Show("0 Points", "Earned Points");
-                            break;
-                        case 1: MessageBox.Show("5 Points", "Earned Points");
-                            break;
-                        case 2: MessageBox.Show("15 Points", "Earned Points");
-                            break;
-                        case 3: MessageBox.Show("30 Points", "Earned Points");
-                            break;
-                        default: MessageBox.Show("60 Points", "Earned Points");
-                            break;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Enter Valid Number of books", "Warning");
-                }      
+            bookClubpoints.calculatePoints(txtNumberOfBooks.Text);
+                
         }
         //Function to reset the value of text box
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
-            txtNumberOfBooks.Text = "0";
+            bookClubpoints.reset(txtNumberOfBooks);
         }
         //Function to show the help message box with rules for calculating the points
         private void btnInformation_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("The points are awarded as follows:"+
-                            "\n" + "If a customer purchases 0 books, he or she earns 0 points"+
-                            "\n" + "If a customer purchases 1 book, he or she earns 5 points"+
-                            "\n" + "If a customer purchases 2 books, he or she earns 15 points"+
-                            "\n" + "If a customer purchases 3 books, he or she earns 30 points"+
-                            "\n" + "If a customer purchases 4 or more books, he or she earns 60 points",
-                            "Points Calculation Rules");
+            bookClubpoints.showInfo();
         }
     }
 }

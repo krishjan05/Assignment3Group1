@@ -53,8 +53,8 @@
         <TextBox Name="txtNumberOfBooks"
                  Grid.Column="1" Grid.Row="1"
                  Height="20" Width="100" 
-                 TextAlignment="Right"
-                 Text="0"/>
+                 TextAlignment="Right"/>
+        
         <!--Button to reset the value in textbox-->
         <Button Name="btnReset"
                 Grid.Column="0" Grid.Row="2"
@@ -70,7 +70,7 @@
                 Click="btnCalculatePoints_Click"/>
 
         <!--Button to display the rules for calculation of points-->
-        <Button Name="btnInformation"
+            <Button Name="btnInformation"
                 Grid.Column="1" Grid.Row="1"
                 Height="25" Width="25"
                 Margin="20"
