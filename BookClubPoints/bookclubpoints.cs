@@ -35,7 +35,7 @@ namespace BookClubPoints
             set { _points = value; NotifyPropertyChanged(); }
         }
         #region
-        //function for calcuating earned points
+        //Function for calcuating earned points
         public void calculatePoints(String numberOfBooks)
         {
             try
@@ -47,23 +47,23 @@ namespace BookClubPoints
                     {
                         case 0:
                             points = 0;
-                            MessageBox.Show("Congratulations, You have earned " + points, "Earned Points");
+                            MessageBox.Show("You have earned " + points + " points", "Earned Points");
                             break;
                         case 1:
                             points = 5;
-                            MessageBox.Show("Congratulations, You have earned " + points, "Earned Points");
+                            MessageBox.Show("Congratulations, You have earned " + points + " points", "Earned Points");
                             break;
                         case 2:
                             points = 15;
-                            MessageBox.Show("Congratulations, You have earned " + points, "Earned Points");
+                            MessageBox.Show("Congratulations, You have earned " + points + " points", "Earned Points");
                             break;
                         case 3:
                             points = 30;
-                            MessageBox.Show("Congratulations, You have earned " + points, "Earned Points");
+                            MessageBox.Show("Congratulations, You have earned " + points + " points", "Earned Points");
                             break;
                         default:
                             points = 60;
-                            MessageBox.Show("Congratulations, You have earned " + points, "Earned Points");
+                            MessageBox.Show("Congratulations, You have earned " + points + " points", "Earned Points");
                             break;
                     }
                 }
@@ -79,13 +79,14 @@ namespace BookClubPoints
             
         }
 
-        //function to reset textbox to 0
+        //Function to reset textbox to 0 and set the focus
         public void reset(TextBox t)
         {
             t.Text = "0";
+            t.Focus();
         }
 
-        //function to show info button
+        //Function to show info button
         public void showInfo()
         {
             MessageBox.Show("The points are awarded as follows:" +

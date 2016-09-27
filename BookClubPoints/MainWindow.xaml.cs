@@ -38,6 +38,7 @@ namespace BookClubPoints
         public MainWindow()
         {
             InitializeComponent();
+            txtNumberOfBooks.Focus();
             bookClubpoints = new bookclubpoints();
             DataContext = bookClubpoints;
 
